@@ -9,4 +9,9 @@ class role::base {
     ensure  => file,
     content => lookup('encrypted-data')
   }
+
+  file { '/tmp/vault_test.txt':
+    ensure  => file,
+    content => lookup('vault_secret')
+  }
 }

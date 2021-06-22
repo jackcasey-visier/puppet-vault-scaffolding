@@ -1,5 +1,6 @@
 # puppet-vault-scaffolding
-A barebones Puppet Master directory with Vault integration
+
+A barebones Puppet Master directory with Vault and IAM integration
 
 # Notes
 
